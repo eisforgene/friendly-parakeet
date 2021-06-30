@@ -43,6 +43,12 @@ function generatePassword(){
         validLetters += symbols;
       }
       console.log(validLetters);
+      var password = "";
+      for(let i=0; i < passwordlength; i++) {
+        var randomIndex = Math.floor(Math.random() * validLetters.length)
+        password += validLetters[randomIndex];
+      }
+      console.log(password);
     } 
   }
 };
