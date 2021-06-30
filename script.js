@@ -23,7 +23,7 @@ function generatePassword(){
     return "Invalid Password length ... please choose between 8 and 128."
   } else {
     var validLetters = []
-    var acceptUpperCase = confirm("Do you like to have Uppercase letters in your password?");
+    var acceptUpperCase = confirm("Would you like to have Uppercase letters in your password?");
     var acceptLowerCase = confirm("Would you like to have Lowercase letters in your password?");
     var acceptNumbers = confirm("Would you like to add Numbers to your password?");
     var acceptSymbols = confirm("Would you like to add Symbols to your password?");
@@ -49,12 +49,10 @@ function generatePassword(){
         password += validLetters[randomIndex];
       }
       console.log(password);
+      return password;
     } 
   }
 };
-
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
