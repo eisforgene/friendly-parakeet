@@ -35,7 +35,7 @@ function generatePassword(){
       }
       if (acceptLowerCase){
         validLetters += lower;
-      }
+      } 
       if (acceptNumbers){
         validLetters += numbers;
       }
