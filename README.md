@@ -1,6 +1,6 @@
 # Friendly Parakeet 
 Check website here:
-[GitHub]
+[GitHub] 
 
 ## JavaSCript Challenge: Password Generator
 Grading Requirements
