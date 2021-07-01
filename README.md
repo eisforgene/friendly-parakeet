@@ -1,6 +1,6 @@
 # Friendly Parakeet 
 Check website here:
-[GitHub] 
+[GitHub](https://eisforgene.github.io/friendly-parakeet/)
 
 ## JavaSCript Challenge: Password Generator
 Grading Requirements
@@ -56,4 +56,6 @@ The password can include special characters.
 
 #### Screenshots:
 
-![Screenshot 1]()
+![Screenshot 1](https://github.com/eisforgene/friendly-parakeet/blob/main/images/screenshot-1.JPG)
+![Screenshot 2](https://github.com/eisforgene/friendly-parakeet/blob/main/images/screenshot-2.JPG)
+![Screenshot 3](https://github.com/eisforgene/friendly-parakeet/blob/main/images/screenshot-3.JPG)
