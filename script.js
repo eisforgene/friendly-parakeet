@@ -18,7 +18,7 @@ function writePassword() {
 
 function generatePassword(){
   var passwordlength = 0; //local
-  passwordlength = parseInt(prompt("Enter Password Length 8 - 128 characters")); // Convert String to Integer
+  passwordlength = parseInt(prompt("Enter Password Length 8 - 128 Characters")); // Convert String to Integer
   if (passwordlength < 8 || passwordlength > 128) {
     return "Invalid Password length ... please choose between 8 and 128."
   } else {
